@@ -1,1 +1,1 @@
-# COMP-3005-LookInnaBook
+# COMP 3005 Look Inna Book
