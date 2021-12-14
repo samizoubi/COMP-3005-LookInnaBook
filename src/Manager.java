@@ -61,16 +61,19 @@ public class Manager {
             } else{
                 System.out.println("\nPlease enter the book's title, isbn, number of pages, price, publisher earnings, stock, genre, and publisher name");
                 System.out.println("\nSeparated by commas ','");
+                sc.nextLine();
                 String [] arrayOfBookInfo = sc.nextLine().split(",");
                 s.executeUpdate("insert into project.book values ('" + Integer.parseInt(arrayOfBookInfo[0]) + "', '" + Integer.parseInt(arrayOfBookInfo[1]) + "'," + Integer.parseInt(arrayOfBookInfo[2]) + "," + Integer.parseInt(arrayOfBookInfo[3]) + ", '" + arrayOfBookInfo[4] + "'," + Integer.parseInt(arrayOfBookInfo[5]) + "," + arrayOfBookInfo[6] + "'," + arrayOfBookInfo[7] + ");" );
 
                 System.out.println("\nWhat is the author of the books first name and last name?");
                 System.out.println("\nSeparated by commas ','");
+                sc.nextLine();
                 String [] arrayOfAuthorInfo = sc.nextLine().split(",");
                 s.executeUpdate("insert into project.author values ('" + arrayOfAuthorInfo[0] + "','" +arrayOfAuthorInfo[1] +"');");
 
                 System.out.println("Enter publisher name, email, phone number, account number, address id");
                 System.out.println("\nSeparated by commas ','");
+                sc.nextLine();
                 String [] arrayOfPublisherInfo = sc.nextLine().split(",");
                 s.executeUpdate("insert into project.publisher values ('" + arrayOfPublisherInfo[0] + "','" + arrayOfPublisherInfo[1]+ "', '" + Integer.parseInt(arrayOfPublisherInfo[2]) + "','" + Integer.parseInt(arrayOfPublisherInfo[3]) + "'," + Integer.parseInt(arrayOfPublisherInfo[4]) + "',"+Integer.parseInt(arrayOfPublisherInfo[5]) + "');");
 
