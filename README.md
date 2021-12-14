@@ -12,7 +12,9 @@ This online book store was developed using JDBC. The program uses a relational d
 
 Details on specfic functionalites of the system have been mentined in section 3 of the "Look Inna Book" Project Report document that is provided in this repository. When a user runs the program, they will be given the option to either sign in as an existing user or to create a new account in the system. Once the system has identified whether you the user are a "Manager" or a "Customer" you will be redirected to the corresponding interface and will be given directions through console outputs such as a Main Menu that contains multiple functionalities. Functionalities contain and are not limited to, searching for a book as a cutomer or removing a book (from the database) as a manager.
 
-
+## ❗️Resources
+In this repository, 4 SQL files have been included. Below is a summary detailing what each file entails:
+### DDL.sql:
 
 
 
