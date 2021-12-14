@@ -19,14 +19,14 @@ public class Bookstore {
 
 
         switch (input.nextInt()){
-            case 0:
+            case 1:
                 System.out.println("Username: \n");
                 String username = login.nextLine();
                 System.out.println("Password: \n");
                 String password = login.nextLine();
                 loginSystem(username, password);
                 break;
-            case 1:
+            case 2:
                 createNewCustomer();
                 break;
         }
