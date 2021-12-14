@@ -14,7 +14,11 @@ Details on specfic functionalites of the system have been mentined in section 3 
 
 ## ❗️Resources
 In this repository, 4 SQL files have been included. Below is a summary detailing what each file entails:
-### DDL.sql:
+- DDL.sql: This file contains the Data Description Language which is all the needed syntax to create and modify the database.
+- Queries.sql: This file contains all the queries found in the Java program that calls the SQL database. It includes comments so that any user can understand
+the given commands, and can reuse the statements to modify data at their discrepancy.
+- Inserts.sql: This file contains all the needed insert statements to insert data into the database. Users can follow the template to create/ add their own data into the database.
+- Functions.sql: This file contains the trigger requirement component of the project as a function since the program is console based, this would act as a message to the owner to restock the books.
 
 
 
