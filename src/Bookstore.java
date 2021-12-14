@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.sql.*;
-// complete
+
 
 public class Bookstore {
 
